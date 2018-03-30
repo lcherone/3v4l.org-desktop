@@ -1,0 +1,86 @@
+html, body {
+  background: #f5f7f9;
+  height:100%
+}
+
+.tabbed-card {
+  margin-top:-16px;
+  border-top:0;
+  border-radius: 0px 0px 4px 4px
+}
+
+.slide-fade-enter-active {
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-fade-leave-active {
+  max-height: 0;
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+  opacity: 0;
+}
+
+.ivu-card {
+  font-size: 13px;
+}
+
+.ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 30px;
+}
+
+dl {
+  margin: 0;
+}
+
+dl {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+dt[id] {
+  cursor: pointer;
+}
+
+dt {
+  font-size: 18px;
+  max-width: 45em;
+}
+user agent stylesheet
+dt {
+  display: block;
+}
+
+pre {
+  background-color: #efefef;
+  overflow: auto;
+  padding: 0.5em;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+.layout {
+  background: #f5f7f9;
+  height:calc(100vh);
+}
+
+.layout-footer-center {
+  text-align: center;
+}
